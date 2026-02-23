@@ -1,14 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { LanguageProvider } from "@/lib/i18n";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import RoomsSection from "@/components/RoomsSection";
+import AmenitiesSection from "@/components/AmenitiesSection";
+import SpaSection from "@/components/SpaSection";
+import ParkingSection from "@/components/ParkingSection";
+import LocationSection from "@/components/LocationSection";
+import GallerySection from "@/components/GallerySection";
+import ContactSection from "@/components/ContactSection";
+import FooterSection from "@/components/FooterSection";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <LanguageProvider>
+    <Header />
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <RoomsSection />
+      <AmenitiesSection />
+      <SpaSection />
+      <ParkingSection />
+      <LocationSection />
+      <GallerySection />
+      <ContactSection />
+    </main>
+    <FooterSection />
+  </LanguageProvider>
+);
 
 export default Index;
