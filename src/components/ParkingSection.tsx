@@ -1,6 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import { Car, AlertTriangle, Navigation, MapPin, FileDown } from "lucide-react";
+import { Car, AlertTriangle, Navigation, MapPin, FileDown, Info } from "lucide-react";
 
 const parkingIcons = [Car, AlertTriangle, Navigation, MapPin];
 
@@ -16,7 +16,7 @@ const ParkingSection = () => {
           </h2>
         </AnimatedSection>
 
-        <div className="grid sm:grid-cols-2 gap-4 mb-12">
+        <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {t.parking.items.map((item, i) => {
             const Icon = parkingIcons[i];
             return (
@@ -29,6 +29,13 @@ const ParkingSection = () => {
             );
           })}
         </div>
+
+        <AnimatedSection>
+          <div className="flex items-start gap-3 p-4 bg-primary/5 rounded-lg border border-primary/10 mb-12">
+            <Info size={18} className="text-primary shrink-0 mt-0.5" />
+            <p className="text-sm text-muted-foreground italic">{t.parking.note}</p>
+          </div>
+        </AnimatedSection>
 
         <AnimatedSection>
           <div className="text-center">
