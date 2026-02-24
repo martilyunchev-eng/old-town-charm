@@ -1,8 +1,8 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import { Wifi, MapPin, Heart, Volume2, Landmark, BedDouble, UtensilsCrossed } from "lucide-react";
+import { Wifi, MapPin, Tv, Coffee, Microwave, WashingMachine, Volume2, BedDouble, Heart, UtensilsCrossed } from "lucide-react";
 
-const icons = [Wifi, MapPin, Heart, Volume2, Landmark, BedDouble, UtensilsCrossed];
+const icons = [Wifi, MapPin, Tv, Coffee, Microwave, WashingMachine, Volume2, BedDouble, Heart, UtensilsCrossed];
 
 const AmenitiesSection = () => {
   const { t } = useLanguage();

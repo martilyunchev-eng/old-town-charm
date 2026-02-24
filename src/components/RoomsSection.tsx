@@ -1,6 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import { Bed, Bath, Wind, Tv, Wifi, Coffee, Eye, WashingMachine } from "lucide-react";
+import { Bed, Bath, Wind, Tv, Wifi, Coffee, Eye, WashingMachine, Microwave, Sofa, UtensilsCrossed, Building } from "lucide-react";
 import room1 from "@/assets/room-1.png";
 import room2 from "@/assets/room-2.png";
 import room3 from "@/assets/room-3.png";
@@ -16,6 +16,7 @@ const RoomsSection = () => {
     {
       name: t.rooms.room1,
       desc: t.rooms.room1desc,
+      floor: t.rooms.room1floor,
       mainImg: room1,
       imgs: [bathroom1, room4],
       features: [f.bed, f.bathroom, f.ac, f.tv, f.wifi, f.balcony, f.view, f.coffee],
@@ -23,25 +24,30 @@ const RoomsSection = () => {
     {
       name: t.rooms.room2,
       desc: t.rooms.room2desc,
+      floor: t.rooms.room2floor,
       mainImg: room2,
       imgs: [kitchen, room3],
-      features: [f.bed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.laundry],
+      features: [f.bed, f.sofa, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.microwave, f.coffee, f.balcony, f.dining, f.laundry],
     },
     {
       name: t.rooms.room3,
       desc: t.rooms.room3desc,
+      floor: t.rooms.room3floor,
       mainImg: room3,
       imgs: [room4, room1],
-      features: [f.bed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.view],
+      features: [f.bed, f.twinBed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.dining, f.laundry],
     },
   ];
 
   const featureIcons: Record<string, React.ReactNode> = {
-    [f.bed]: <Bed size={16} />, [f.bathroom]: <Bath size={16} />,
+    [f.bed]: <Bed size={16} />, [f.twinBed]: <Bed size={16} />,
+    [f.bathroom]: <Bath size={16} />,
     [f.ac]: <Wind size={16} />, [f.tv]: <Tv size={16} />,
     [f.wifi]: <Wifi size={16} />, [f.kitchen]: <Coffee size={16} />,
     [f.coffee]: <Coffee size={16} />, [f.balcony]: <Eye size={16} />,
     [f.view]: <Eye size={16} />, [f.laundry]: <WashingMachine size={16} />,
+    [f.microwave]: <Microwave size={16} />, [f.sofa]: <Sofa size={16} />,
+    [f.dining]: <UtensilsCrossed size={16} />, [f.floor]: <Building size={16} />,
   };
 
   return (
@@ -80,7 +86,8 @@ const RoomsSection = () => {
 
                 {/* Info */}
                 <div className={`flex flex-col justify-center ${i % 2 === 1 ? "md:order-1" : ""}`}>
-                  <h3 className="font-heading text-2xl text-foreground mb-3">{room.name}</h3>
+                  <h3 className="font-heading text-2xl text-foreground mb-1">{room.name}</h3>
+                  <p className="text-sm text-gold font-medium mb-4">{room.floor}</p>
                   <p className="text-muted-foreground mb-6 leading-relaxed">{room.desc}</p>
                   <div className="grid grid-cols-2 gap-2">
                     {room.features.map((feat, fi) => (

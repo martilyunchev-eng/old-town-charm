@@ -12,8 +12,11 @@ const LocationSection = () => {
           <h2 className="font-heading text-3xl md:text-4xl text-center text-foreground mb-4">
             <span className="text-primary">{t.location.title}</span>
           </h2>
-          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
+          <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-4 leading-relaxed">
             {t.location.desc}
+          </p>
+          <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+            {t.location.desc2}
           </p>
         </AnimatedSection>
 
