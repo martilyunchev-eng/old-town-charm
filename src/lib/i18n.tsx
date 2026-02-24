@@ -85,6 +85,14 @@ const translations = {
         ["\u0410\u0432\u0442\u043E\u0433\u0430\u0440\u0430", "~2 \u043A\u043C"],
       ] as [string, string][],
     },
+    views: {
+      title: "\u0413\u043B\u0435\u0434\u043A\u0438 \u0438 \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0430",
+      subtitle: "\u0413\u0440\u0430\u0434\u044A\u0442, \u043A\u043E\u0439\u0442\u043E \u043E\u0441\u0442\u0430\u0432\u0430 \u0432 \u0441\u044A\u0440\u0446\u0435\u0442\u043E",
+      desc: "\u041E\u0442 \u043F\u0430\u043D\u043E\u0440\u0430\u043C\u043D\u0438\u0442\u0435 \u0433\u043B\u0435\u0434\u043A\u0438 \u043A\u044A\u043C \u0440\u0435\u043A\u0430 \u042F\u043D\u0442\u0440\u0430 \u0434\u043E \u0432\u0435\u0447\u0435\u0440\u043D\u0438\u0442\u0435 \u0441\u0432\u0435\u0442\u043B\u0438\u043D\u0438 \u043D\u0430 \u0426\u0430\u0440\u0435\u0432\u0435\u0446 \u2013 \u0442\u0443\u043A \u0432\u0441\u044F\u043A\u0430 \u0440\u0430\u0437\u0445\u043E\u0434\u043A\u0430 \u0435 \u043F\u0440\u0435\u0436\u0438\u0432\u044F\u0432\u0430\u043D\u0435.",
+      gurkoTitle: "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u0430\u0442\u0430 \u0443\u043B\u0438\u0446\u0430 \u0413\u0435\u043D\u0435\u0440\u0430\u043B \u0413\u0443\u0440\u043A\u043E",
+      gurkoP1: "\u0423\u043B\u0438\u0446\u0430 \u0413\u0435\u043D\u0435\u0440\u0430\u043B \u0413\u0443\u0440\u043A\u043E \u0435 \u0435\u0434\u043D\u0430 \u043E\u0442 \u043D\u0430\u0439-\u043A\u0440\u0430\u0441\u0438\u0432\u0438\u0442\u0435 \u0438 \u0435\u043C\u0431\u043B\u0435\u043C\u0430\u0442\u0438\u0447\u043D\u0438 \u0443\u043B\u0438\u0446\u0438 \u043D\u0430 \u0412\u0435\u043B\u0438\u043A\u043E \u0422\u044A\u0440\u043D\u043E\u0432\u043E. \u041A\u0430\u043B\u0434\u044A\u0440\u044A\u043C\u0435\u043D\u0430\u0442\u0430 \u0443\u043B\u0438\u0446\u0430 \u0441\u0435 \u0432\u0438\u0435 \u043F\u043E \u0441\u043A\u043B\u043E\u043D\u0430 \u043D\u0430\u0434 \u0440\u0435\u043A\u0430 \u042F\u043D\u0442\u0440\u0430, \u043E\u0431\u0433\u0440\u0430\u0434\u0435\u043D\u0430 \u043E\u0442 \u0430\u0432\u0442\u0435\u043D\u0442\u0438\u0447\u043D\u0438 \u0432\u044A\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0441\u043A\u0438 \u043A\u044A\u0449\u0438 \u0441 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u0438 \u0435\u0440\u043A\u0435\u0440\u0438, \u0434\u044A\u0440\u0432\u0435\u043D\u0438 \u0447\u0430\u0440\u0434\u0430\u0446\u0438 \u0438 \u0446\u0432\u0435\u0442\u044F \u043F\u043E \u0444\u0430\u0441\u0430\u0434\u0438\u0442\u0435.",
+      gurkoP2: "\u041E\u0442 \u0443\u043B\u0438\u0446\u0430\u0442\u0430 \u0441\u0435 \u043E\u0442\u043A\u0440\u0438\u0432\u0430\u0442 \u0437\u0430\u0445\u043B\u0430\u0441\u0432\u0430\u0449\u0438 \u043F\u0430\u043D\u043E\u0440\u0430\u043C\u043D\u0438 \u0433\u043B\u0435\u0434\u043A\u0438 \u043A\u044A\u043C \u0440\u0435\u043A\u0430 \u042F\u043D\u0442\u0440\u0430, \u0441\u0442\u0430\u0440\u0438\u0442\u0435 \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0438 \u0438 \u0445\u044A\u043B\u043C\u043E\u0432\u0435\u0442\u0435 \u043D\u0430\u043E\u043A\u043E\u043B\u043E. \u0422\u043E\u0432\u0430 \u0435 \u043C\u044F\u0441\u0442\u043E\u0442\u043E, \u043A\u044A\u0434\u0435\u0442\u043E \u0438\u0441\u0442\u043E\u0440\u0438\u044F\u0442\u0430 \u0438 \u043A\u0440\u0430\u0441\u043E\u0442\u0430\u0442\u0430 \u0441\u0435 \u043F\u0440\u0435\u043F\u043B\u0438\u0442\u0430\u0442 \u0432 \u0432\u0441\u044F\u043A\u0430 \u043A\u0440\u0430\u0447\u043A\u0430.",
+    },
     gallery: { title: "\u0413\u0430\u043B\u0435\u0440\u0438\u044F" },
     contact: {
       title: "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u0438 \u0438 \u0440\u0435\u0437\u0435\u0440\u0432\u0430\u0446\u0438\u0438",
@@ -178,6 +186,14 @@ const translations = {
         ["Bus Station", "~2 km"],
       ] as [string, string][],
     },
+    views: {
+      title: "Views & Atmosphere",
+      subtitle: "The city that stays in your heart",
+      desc: "From the panoramic views of the Yantra River to the evening lights of Tsarevets \u2013 every walk here is an experience.",
+      gurkoTitle: "The Legendary General Gurko Street",
+      gurkoP1: "General Gurko Street is one of the most beautiful and iconic streets of Veliko Tarnovo. The cobblestone road winds along the slope above the Yantra River, lined with authentic Revival houses featuring characteristic bay windows, wooden balconies, and flowers on the facades.",
+      gurkoP2: "From the street, breathtaking panoramic views open up toward the Yantra River, the old quarters, and the surrounding hills. This is where history and beauty intertwine with every step.",
+    },
     gallery: { title: "Gallery" },
     contact: {
       title: "Contact & Reservations",
@@ -270,6 +286,14 @@ const translations = {
         ["Centrul ora\u0219ului", "~500 m"],
         ["Autogara", "~2 km"],
       ] as [string, string][],
+    },
+    views: {
+      title: "Priveliste si atmosfer\u0103",
+      subtitle: "Ora\u0219ul care r\u0103m\u00E2ne \u00EEn inim\u0103",
+      desc: "De la vederile panoramice asupra r\u00E2ului Yantra p\u00E2n\u0103 la luminile de sear\u0103 ale Tsarevets \u2013 fiecare plimbare aici este o experien\u021B\u0103.",
+      gurkoTitle: "Legendara strad\u0103 General Gurko",
+      gurkoP1: "Strada General Gurko este una dintre cele mai frumoase \u0219i emblematice str\u0103zi din Veliko T\u00E2rnovo. Drumul pavat se \u00EEntinde de-a lungul versantului de deasupra r\u00E2ului Yantra, \u00EEnconjurat de case autentice \u00EEn stil Renascen\u021Bist cu balcoane din lemn \u0219i flori pe fa\u021Bade.",
+      gurkoP2: "De pe strad\u0103 se deschid vederi panoramice uimitoare spre r\u00E2ul Yantra, cartierele vechi \u0219i dealurile \u00EEmprejur\u0103toare. Aici istoria \u0219i frumuse\u021Bea se \u00EEmpletisc la fiecare pas.",
     },
     gallery: { title: "Galerie" },
     contact: {
