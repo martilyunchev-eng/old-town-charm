@@ -13,8 +13,18 @@ import bathroom1 from "@/assets/bathroom-1.png";
 import bathroom2 from "@/assets/bathroom-2.png";
 import kitchen from "@/assets/kitchen.png";
 import dining from "@/assets/dining.png";
+import gallery1 from "@/assets/gallery-1.png";
+import gallery2 from "@/assets/gallery-2.png";
+import gallery3 from "@/assets/gallery-3.png";
+import gallery4 from "@/assets/gallery-4.png";
+import gallery5 from "@/assets/gallery-5.png";
+import gallery6 from "@/assets/gallery-6.png";
+import gallery7 from "@/assets/gallery-7.png";
+import gallery8 from "@/assets/gallery-8.png";
+import gallery9 from "@/assets/gallery-9.png";
+import gallery10 from "@/assets/gallery-10.png";
 
-const images = [room1, room2, balcony, room3, bathroom1, room4, kitchen, dining, bathroom2];
+const images = [room1, room2, balcony, room3, bathroom1, room4, kitchen, dining, bathroom2, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10];
 
 const GallerySection = () => {
   const { t } = useLanguage();
