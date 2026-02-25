@@ -22,8 +22,8 @@ const RoomsSection = () => {
       name: t.rooms.room1,
       desc: t.rooms.room1desc,
       floor: t.rooms.room1floor,
-      mainImg: room1,
-      imgs: [bathroom1, room4],
+      mainImg: room101_1,
+      imgs: [room101_2, room101_3, room101_4, room101_5, room101_6, room101_7],
       features: [f.bed, f.bathroom, f.ac, f.tv, f.wifi, f.balcony, f.view, f.coffee],
     },
     {
@@ -39,7 +39,7 @@ const RoomsSection = () => {
       desc: t.rooms.room3desc,
       floor: t.rooms.room3floor,
       mainImg: room3,
-      imgs: [room4, room1],
+      imgs: [room4, room2],
       features: [f.bed, f.twinBed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.dining, f.laundry],
     },
   ];
