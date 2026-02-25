@@ -1,11 +1,16 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
 import { Bed, Bath, Wind, Tv, Wifi, Coffee, Eye, WashingMachine, Microwave, Sofa, UtensilsCrossed, Building } from "lucide-react";
-import room1 from "@/assets/room-1.png";
+import room101_1 from "@/assets/room101-1.png";
+import room101_2 from "@/assets/room101-2.png";
+import room101_3 from "@/assets/room101-3.png";
+import room101_4 from "@/assets/room101-4.png";
+import room101_5 from "@/assets/room101-5.png";
+import room101_6 from "@/assets/room101-6.png";
+import room101_7 from "@/assets/room101-7.png";
 import room2 from "@/assets/room-2.png";
 import room3 from "@/assets/room-3.png";
 import room4 from "@/assets/room-4.png";
-import bathroom1 from "@/assets/bathroom-1.png";
 import kitchen from "@/assets/kitchen.png";
 
 const RoomsSection = () => {
@@ -17,8 +22,8 @@ const RoomsSection = () => {
       name: t.rooms.room1,
       desc: t.rooms.room1desc,
       floor: t.rooms.room1floor,
-      mainImg: room1,
-      imgs: [bathroom1, room4],
+      mainImg: room101_1,
+      imgs: [room101_2, room101_3, room101_4, room101_5, room101_6, room101_7],
       features: [f.bed, f.bathroom, f.ac, f.tv, f.wifi, f.balcony, f.view, f.coffee],
     },
     {
@@ -34,7 +39,7 @@ const RoomsSection = () => {
       desc: t.rooms.room3desc,
       floor: t.rooms.room3floor,
       mainImg: room3,
-      imgs: [room4, room1],
+      imgs: [room4, room2],
       features: [f.bed, f.twinBed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.dining, f.laundry],
     },
   ];
