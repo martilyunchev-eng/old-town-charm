@@ -8,10 +8,12 @@ import room101_4 from "@/assets/room101-4.png";
 import room101_5 from "@/assets/room101-5.png";
 import room101_6 from "@/assets/room101-6.png";
 import room101_7 from "@/assets/room101-7.png";
-import room2 from "@/assets/room-2.png";
-import room3 from "@/assets/room-3.png";
-import room4 from "@/assets/room-4.png";
-import kitchen from "@/assets/kitchen.png";
+import suite201_1 from "@/assets/suite201-1.png";
+import suite201_2 from "@/assets/suite201-2.png";
+import suite201_3 from "@/assets/suite201-3.png";
+import studio301_1 from "@/assets/studio301-1.png";
+import studio301_2 from "@/assets/studio301-2.png";
+import studio301_3 from "@/assets/studio301-3.png";
 
 const RoomsSection = () => {
   const { t } = useLanguage();
