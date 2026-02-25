@@ -1,11 +1,16 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
 import { Bed, Bath, Wind, Tv, Wifi, Coffee, Eye, WashingMachine, Microwave, Sofa, UtensilsCrossed, Building } from "lucide-react";
-import room1 from "@/assets/room-1.png";
+import room101_1 from "@/assets/room101-1.png";
+import room101_2 from "@/assets/room101-2.png";
+import room101_3 from "@/assets/room101-3.png";
+import room101_4 from "@/assets/room101-4.png";
+import room101_5 from "@/assets/room101-5.png";
+import room101_6 from "@/assets/room101-6.png";
+import room101_7 from "@/assets/room101-7.png";
 import room2 from "@/assets/room-2.png";
 import room3 from "@/assets/room-3.png";
 import room4 from "@/assets/room-4.png";
-import bathroom1 from "@/assets/bathroom-1.png";
 import kitchen from "@/assets/kitchen.png";
 
 const RoomsSection = () => {
