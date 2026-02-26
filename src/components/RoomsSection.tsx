@@ -14,6 +14,13 @@ import suite201_3 from "@/assets/suite201-3.png";
 import studio301_1 from "@/assets/studio301-1.png";
 import studio301_2 from "@/assets/studio301-2.png";
 import studio301_3 from "@/assets/studio301-3.png";
+import room302_1 from "@/assets/room302-1.png";
+import room302_2 from "@/assets/room302-2.png";
+import room302_3 from "@/assets/room302-3.png";
+import room302_4 from "@/assets/room302-4.png";
+import room302_5 from "@/assets/room302-5.png";
+import room302_6 from "@/assets/room302-6.png";
+import room302_7 from "@/assets/room302-7.png";
 
 const RoomsSection = () => {
   const { t } = useLanguage();
@@ -33,16 +40,16 @@ const RoomsSection = () => {
       desc: t.rooms.room2desc,
       floor: t.rooms.room2floor,
       mainImg: suite201_1,
-      imgs: [suite201_2, suite201_3],
-      features: [f.bed, f.sofa, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.microwave, f.coffee, f.balcony, f.dining, f.laundry],
+      imgs: [suite201_2, suite201_3, studio301_1, studio301_2, studio301_3],
+      features: [f.bed, f.twinBed, f.sofa, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.microwave, f.coffee, f.balcony, f.dining, f.laundry],
     },
     {
       name: t.rooms.room3,
       desc: t.rooms.room3desc,
       floor: t.rooms.room3floor,
-      mainImg: studio301_1,
-      imgs: [studio301_2, studio301_3],
-      features: [f.bed, f.twinBed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.coffee, f.dining, f.laundry],
+      mainImg: room302_1,
+      imgs: [room302_2, room302_3, room302_4, room302_5, room302_6, room302_7],
+      features: [f.bed, f.twinBed, f.bathroom, f.ac, f.tv, f.wifi, f.kitchen, f.microwave, f.coffee, f.balcony, f.dining, f.laundry],
     },
   ];
 
