@@ -1,6 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import balconyImg from "@/assets/balcony.png";
+import houseExterior from "@/assets/house-exterior.png";
 
 const AboutSection = () => {
   const { t } = useLanguage();
@@ -24,8 +24,8 @@ const AboutSection = () => {
           <AnimatedSection delay={0.2}>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
-                src={balconyImg}
-                alt="Гледка от балкона на къщата"
+                src={houseExterior}
+                alt="Легендарната къща Св. Сава – exterier"
                 className="w-full h-[400px] md:h-[500px] object-cover"
                 loading="lazy"
               />

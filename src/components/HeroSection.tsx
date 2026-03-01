@@ -11,14 +11,14 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-foreground/50" />
+      <div className="absolute inset-0 bg-foreground/40" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="font-heading text-4xl md:text-6xl lg:text-7xl text-primary-foreground text-shadow-hero mb-6 leading-tight"
+          className="font-heading text-4xl md:text-6xl lg:text-7xl text-primary-foreground text-shadow-hero mb-4 leading-tight"
         >
           {t.hero.title}
         </motion.h1>
@@ -26,10 +26,19 @@ const HeroSection = () => {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-          className="text-lg md:text-xl text-primary-foreground/90 mb-10 max-w-2xl mx-auto font-light"
+          transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+          className="font-heading text-xl md:text-2xl text-gold-light italic mb-6"
         >
           {t.hero.subtitle}
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
+          className="text-base md:text-lg text-primary-foreground/90 mb-10 max-w-2xl mx-auto font-light"
+        >
+          {t.hero.desc}
         </motion.p>
 
         <motion.div

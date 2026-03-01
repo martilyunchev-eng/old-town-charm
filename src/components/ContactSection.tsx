@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   const { t } = useLanguage();
@@ -24,20 +24,27 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           <AnimatedSection>
-            <div className="space-y-6">
+            <div className="space-y-5">
+              <div className="flex items-center gap-3 text-foreground">
+                <MapPin size={20} className="text-gold shrink-0" />
+                <span>{t.contact.address}</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <Phone size={20} className="text-gold shrink-0" />
+                <a href="tel:+359878400681" className="text-foreground hover:text-primary transition-colors">
+                  +359 878 400681
+                </a>
+              </div>
+              <div className="flex items-center gap-3 text-muted-foreground text-sm">
+                <MessageCircle size={18} className="text-gold shrink-0" />
+                <span>Viber / WhatsApp</span>
+              </div>
               <a
-                href="tel:0878400681"
-                className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
-              >
-                <Phone size={20} className="text-gold" />
-                <span>087 8400681</span>
-              </a>
-              <a
-                href="mailto:sava.moskov@gmail.com"
+                href="mailto:stsavahouse@gmail.com"
                 className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
               >
                 <Mail size={20} className="text-gold" />
-                <span>sava.moskov@gmail.com</span>
+                <span>stsavahouse@gmail.com</span>
               </a>
 
               <p className="font-heading text-xl text-primary italic mt-8">
