@@ -22,10 +22,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-wood/95 backdrop-blur-sm">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <a href="#" className="font-heading text-lg text-primary-foreground tracking-wide">
-          Свети Сава
+          {t.logo}
         </a>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <a
@@ -38,7 +37,6 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Language toggle */}
         <div className="hidden md:flex items-center gap-1">
           {langs.map((l) => (
             <button
@@ -55,7 +53,6 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-wood-foreground"
           onClick={() => setOpen(!open)}
@@ -64,7 +61,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {open && (
           <motion.div
