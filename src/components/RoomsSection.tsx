@@ -7,10 +7,6 @@ import room101_4 from "@/assets/room101-4.png";
 import room101_5 from "@/assets/room101-5.png";
 import room101_6 from "@/assets/room101-6.png";
 import room101_7 from "@/assets/room101-7.png";
-import suite201_1 from "@/assets/suite201-1.png";
-import suite201_2 from "@/assets/suite201-2.png";
-import suite201_3 from "@/assets/suite201-3.png";
-import balconyImg from "@/assets/balcony.png";
 
 const RoomsSection = () => {
   const { t } = useLanguage();
@@ -27,8 +23,8 @@ const RoomsSection = () => {
       name: t.rooms.room2,
       floor: t.rooms.room2floor,
       features: t.rooms.room2features,
-      mainImg: suite201_1,
-      imgs: [suite201_2, suite201_3, balconyImg],
+      mainImg: null,
+      imgs: [],
     },
     {
       name: t.rooms.room3,
