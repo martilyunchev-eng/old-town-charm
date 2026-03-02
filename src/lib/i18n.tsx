@@ -313,7 +313,6 @@ const translations = {
     },
     rooms: {
       title: "Camere și cazare",
-      room1: "Camera 101 – Double Superior",
       room1: "Camera 101 – Double Superior, Etajul 1",
       room1floor: "Etajul 1",
       room1features: [
