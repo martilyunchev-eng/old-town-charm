@@ -7,6 +7,16 @@ import room101_4 from "@/assets/room101-4.png";
 import room101_5 from "@/assets/room101-5.png";
 import room101_6 from "@/assets/room101-6.png";
 import room101_7 from "@/assets/room101-7.png";
+import apt201_1 from "@/assets/apt201-1.png";
+import apt201_2 from "@/assets/apt201-2.png";
+import apt201_3 from "@/assets/apt201-3.png";
+import apt201_4 from "@/assets/apt201-4.png";
+import apt201_5 from "@/assets/apt201-5.png";
+import apt201_6 from "@/assets/apt201-6.png";
+import apt201_7 from "@/assets/apt201-7.png";
+import apt201_8 from "@/assets/apt201-8.png";
+import apt201_9 from "@/assets/apt201-9.png";
+import apt201_10 from "@/assets/apt201-10.png";
 
 const RoomsSection = () => {
   const { t } = useLanguage();
