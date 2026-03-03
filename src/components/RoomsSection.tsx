@@ -33,8 +33,8 @@ const RoomsSection = () => {
       name: t.rooms.room2,
       floor: t.rooms.room2floor,
       features: t.rooms.room2features,
-      mainImg: null,
-      imgs: [],
+      mainImg: apt201_10,
+      imgs: [apt201_4, apt201_3, apt201_2, apt201_1, apt201_9, apt201_5, apt201_8, apt201_6, apt201_7],
     },
     {
       name: t.rooms.room3,
