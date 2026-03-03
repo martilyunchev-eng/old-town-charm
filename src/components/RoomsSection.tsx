@@ -17,6 +17,16 @@ import apt201_7 from "@/assets/apt201-7.png";
 import apt201_8 from "@/assets/apt201-8.png";
 import apt201_9 from "@/assets/apt201-9.png";
 import apt201_10 from "@/assets/apt201-10.png";
+import studio301_1 from "@/assets/studio301-1.png";
+import studio301_2 from "@/assets/studio301-2.png";
+import studio301_3 from "@/assets/studio301-3.png";
+import studio301_4 from "@/assets/studio301-4.png";
+import studio301_5 from "@/assets/studio301-5.png";
+import studio301_6 from "@/assets/studio301-6.png";
+import studio301_7 from "@/assets/studio301-7.png";
+import studio301_8 from "@/assets/studio301-8.png";
+import studio301_9 from "@/assets/studio301-9.png";
+import studio301_10 from "@/assets/studio301-10.png";
 
 const RoomsSection = () => {
   const { t } = useLanguage();
@@ -40,8 +50,8 @@ const RoomsSection = () => {
       name: t.rooms.room3,
       floor: t.rooms.room3floor,
       features: t.rooms.room3features,
-      mainImg: null,
-      imgs: [],
+      mainImg: studio301_9,
+      imgs: [studio301_8, studio301_2, studio301_1, studio301_3, studio301_7, studio301_6, studio301_5, studio301_4, studio301_10],
     },
   ];
 
