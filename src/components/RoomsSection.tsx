@@ -17,6 +17,7 @@ import apt201_7 from "@/assets/apt201-7.png";
 import apt201_8 from "@/assets/apt201-8.png";
 import apt201_9 from "@/assets/apt201-9.png";
 import apt201_10 from "@/assets/apt201-10.png";
+import apt201_balcony from "@/assets/apt201-balcony.png";
 import studio301_1 from "@/assets/studio301-1.png";
 import studio301_2 from "@/assets/studio301-2.png";
 import studio301_3 from "@/assets/studio301-3.png";
@@ -44,7 +45,7 @@ const RoomsSection = () => {
       floor: t.rooms.room2floor,
       features: t.rooms.room2features,
       mainImg: apt201_10,
-      imgs: [apt201_4, apt201_3, apt201_2, apt201_1, apt201_9, apt201_5, apt201_8, apt201_6, apt201_7],
+      imgs: [apt201_4, apt201_3, apt201_2, apt201_1, apt201_balcony, apt201_5, apt201_8, apt201_6, apt201_7],
     },
     {
       name: t.rooms.room3,
