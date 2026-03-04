@@ -83,6 +83,7 @@ const ViewsSection = () => {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>{t.views.gurkoP1}</p>
               <p>{t.views.gurkoP2}</p>
+              <p>{t.views.gurkoP3}</p>
             </div>
           </AnimatedSection>
 
