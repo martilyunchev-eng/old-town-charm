@@ -13,8 +13,14 @@ const LocationIntroSection = () => {
           <h2 className="font-heading text-3xl md:text-4xl text-center text-foreground mb-3">
             <span className="text-primary">{t.locationIntro.title}</span>
           </h2>
-          <p className="font-heading text-xl md:text-2xl text-center text-gold italic mb-12">
+          <p className="font-heading text-xl md:text-2xl text-center text-gold italic mb-8">
             {t.locationIntro.subtitle}
+          </p>
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-4 leading-relaxed">
+            {t.locationIntro.p1}
+          </p>
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-12 leading-relaxed">
+            {t.locationIntro.p2}
           </p>
         </AnimatedSection>
 
