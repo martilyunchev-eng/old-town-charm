@@ -26,6 +26,8 @@ const translations = {
     locationIntro: {
       title: "В сърцето на старопрестолния град",
       subtitle: "Легендарната ул. Гурко",
+      p1: "Улица Генерал Гурко е една от най-красивите и емблематични улици на Велико Търново. Калдъръмената улица се вие по склона над река Янтра, обградена от автентични възрожденски къщи с характерни еркери, дървени чардаци и цветя по фасадите.",
+      p2: "От улицата се откриват захласващи панорамни гледки към река Янтра, старите квартали и хълмовете наоколо. Това е мястото, където историята и красотата се преплитат във всяка крачка.",
     },
     rooms: {
       title: "Стаи и настаняване",
@@ -169,6 +171,8 @@ const translations = {
     locationIntro: {
       title: "In the heart of the old capital",
       subtitle: "The legendary Gurko Street",
+      p1: "General Gurko Street is one of the most beautiful and iconic streets of Veliko Tarnovo. The cobblestone road winds along the slope above the Yantra River, surrounded by authentic Revival houses with characteristic bay windows, wooden balconies, and flowers on the facades.",
+      p2: "From the street, breathtaking panoramic views open up towards the Yantra River, the old quarters, and the surrounding hills. This is where history and beauty intertwine with every step.",
     },
     rooms: {
       title: "Rooms & Accommodation",
@@ -312,6 +316,8 @@ const translations = {
     locationIntro: {
       title: "În inima vechii capitale",
       subtitle: "Legendara stradă Gurko",
+      p1: "Strada General Gurko este una dintre cele mai frumoase și emblematice străzi din Veliko Târnovo. Drumul pavat se întinde de-a lungul versantului de deasupra râului Yantra, înconjurat de case autentice în stil Renaștere cu balcoane din lemn și flori pe fațade.",
+      p2: "De pe stradă se deschid vederi panoramice uimitoare către râul Yantra, cartierele vechi și dealurile din jur. Acesta este locul unde istoria și frumusețea se împletesc la fiecare pas.",
     },
     rooms: {
       title: "Camere și cazare",
