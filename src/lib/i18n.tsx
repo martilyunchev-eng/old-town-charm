@@ -150,10 +150,10 @@ const translations = {
     },
   },
   en: {
-    logo: `The Legendary House ${Q}St. Sava${QC}`,
+    logo: `${Q}St. Sava${QC} Legendary House`,
     nav: { about: "About", rooms: "Rooms", amenities: "Amenities", gallery: "Gallery", location: "Location", contact: "Contact" },
     hero: {
-      title: `The Legendary House ${Q}St. Sava${QC}`,
+      title: `${Q}St. Sava${QC} Legendary House`,
       subtitle: "where the spirit of Tarnovo comes alive",
       desc: "A boutique guesthouse with rooms and apartments in the heart of Veliko Tarnovo – a blend of Revival atmosphere, warmth, and modern comfort.",
       cta1: "Make an inquiry",
@@ -161,7 +161,7 @@ const translations = {
     },
     about: {
       title: "About the House",
-      p1: `The Legendary House ${Q}St. Sava${QC} is located in the historic part of Veliko Tarnovo – among cobblestone streets, antique facades, and a unique atmosphere.`,
+      p1: `${Q}St. Sava${QC} Legendary House is located in the historic part of Veliko Tarnovo – among cobblestone streets, antique facades, and a unique atmosphere.`,
       p2: "Situated on Gen. Gurko Street, in the architectural reserve of the old town, the house offers panoramic views of the Yantra River and the old quarters.",
       p3: "Here, time seems to slow down. You will feel peace, silence, and warmth that turn every night into a true experience.",
       p4: "The house combines the authentic spirit of the old capital with modern accommodation amenities – the perfect place for a romantic getaway, weekend escape, or family trip.",
