@@ -7,10 +7,10 @@ const QC = "\u201C";
 
 const translations = {
   bg: {
-    logo: `Св. Сава ${Q}Легендарна къща${QC}`,
+    logo: `Легендарната къща ${Q}Свети Сава${QC}`,
     nav: { about: "За къщата", rooms: "Стаи", amenities: "Удобства", gallery: "Галерия", location: "Локация", contact: "Контакти" },
     hero: {
-      title: `Св. Сава ${Q}Легендарна къща${QC}`,
+      title: `Легендарната къща ${Q}Свети Сава${QC}`,
       subtitle: "там където духът на Търново оживява",
       desc: "Бутикова къща със стаи и апартаменти за гости в сърцето на Велико Търново – съчетание на възрожденска атмосфера, уют и съвременен комфорт.",
       cta1: "Направи запитване",
@@ -18,7 +18,7 @@ const translations = {
     },
     about: {
       title: "За къщата",
-      p1: `Св. Сава ${Q}Легендарна къща${QC} се намира в историческата част на Велико Търново – сред калдъръмени уличкии, старинни фасади и неповторима атмосфера.`,
+      p1: `Легендарната къща ${Q}Свети Сава${QC} се намира в историческата част на Велико Търново – сред калдъръмени уличкии, старинни фасади и неповторима атмосфера.`,
       p2: "Разположена на ул. Ген. Гурко, в архитектурния резерват на стария град, къщата предлага панорамни гледки към река Янтра и старите квартали.",
       p3: "Тук времето сякаш забавя своя ход. Ще усетите спокойствие, тишина и уют, които превръщат всяка нощувка в истинско преживяване.",
       p4: "Къщата съчетава автентичния дух на старопрестолния град с удобствата на съвременното настаняване – идеално място за романтична почивка, уикенд бягство или семейно пътуване.",
@@ -150,10 +150,10 @@ const translations = {
     },
   },
   en: {
-    logo: `St. Sava ${Q}Legendary House${QC}`,
+    logo: `The Legendary House ${Q}St. Sava${QC}`,
     nav: { about: "About", rooms: "Rooms", amenities: "Amenities", gallery: "Gallery", location: "Location", contact: "Contact" },
     hero: {
-      title: `St. Sava ${Q}Legendary House${QC}`,
+      title: `The Legendary House ${Q}St. Sava${QC}`,
       subtitle: "where the spirit of Tarnovo comes alive",
       desc: "A boutique guesthouse with rooms and apartments in the heart of Veliko Tarnovo – a blend of Revival atmosphere, warmth, and modern comfort.",
       cta1: "Make an inquiry",
@@ -161,7 +161,7 @@ const translations = {
     },
     about: {
       title: "About the House",
-      p1: `St. Sava ${Q}Legendary House${QC} is located in the historic part of Veliko Tarnovo – among cobblestone streets, antique facades, and a unique atmosphere.`,
+      p1: `The Legendary House ${Q}St. Sava${QC} is located in the historic part of Veliko Tarnovo – among cobblestone streets, antique facades, and a unique atmosphere.`,
       p2: "Situated on Gen. Gurko Street, in the architectural reserve of the old town, the house offers panoramic views of the Yantra River and the old quarters.",
       p3: "Here, time seems to slow down. You will feel peace, silence, and warmth that turn every night into a true experience.",
       p4: "The house combines the authentic spirit of the old capital with modern accommodation amenities – the perfect place for a romantic getaway, weekend escape, or family trip.",
@@ -293,10 +293,10 @@ const translations = {
     },
   },
   ro: {
-    logo: `Sf. Sava ${Q}Casa Legendară${QC}`,
+    logo: `Casa Legendară ${Q}Sf. Sava${QC}`,
     nav: { about: "Despre", rooms: "Camere", amenities: "Facilități", gallery: "Galerie", location: "Locație", contact: "Contact" },
     hero: {
-      title: `Sf. Sava ${Q}Casa Legendară${QC}`,
+      title: `Casa Legendară ${Q}Sf. Sava${QC}`,
       subtitle: "unde spiritul vechiului Târnovo prinde viață",
       desc: "O casă de oaspeți boutique cu camere și apartamente în inima orașului Veliko Târnovo – o combinație de atmosferă renascentistă, căldură și confort modern.",
       cta1: "Trimite o cerere",
@@ -304,7 +304,7 @@ const translations = {
     },
     about: {
       title: "Despre casă",
-      p1: `Sf. Sava ${Q}Casa Legendară${QC} este situată în partea istorică a orașului Veliko Târnovo – printre străzi pavate, fațade antice și o atmosferă unică.`,
+      p1: `Casa Legendară ${Q}Sf. Sava${QC} este situată în partea istorică a orașului Veliko Târnovo – printre străzi pavate, fațade antice și o atmosferă unică.`,
       p2: "Situată pe strada Gen. Gurko, în rezervația arhitecturală a orașului vechi, casa oferă vederi panoramice asupra râului Yantra și cartierele vechi.",
       p3: "Aici, timpul pare să încetinească. Veți simți liniștea, tăcerea și căldura care transformă fiecare noapte într-o experiență autentică.",
       p4: "Casa combină spiritul autentic al vechii capitale cu facilitățile cazării moderne – locul ideal pentru o escapadă romantică, un weekend de evadare sau o călătorie în familie.",

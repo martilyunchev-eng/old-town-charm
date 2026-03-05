@@ -25,7 +25,7 @@ const AboutSection = () => {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
                 src={houseExterior}
-                alt="Легендарната къща Св. Сава – exterier"
+                alt="Легендарната къща Свети Сава – exterier"
                 className="w-full h-[400px] md:h-[500px] object-cover"
                 loading="lazy"
               />
