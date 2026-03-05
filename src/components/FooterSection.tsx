@@ -31,7 +31,7 @@ const FooterSection = () => {
         </div>
 
         <div className="text-center text-xs text-wood-foreground/40">
-          &copy; {new Date().getFullYear()} Св. Сава „Легендарна къща" – Велико Търново
+          &copy; {new Date().getFullYear()} Легендарната къща „Свети Сава" – Велико Търново
         </div>
       </div>
     </footer>

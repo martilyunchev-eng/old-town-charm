@@ -44,7 +44,7 @@ const LocationSection = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Легендарната къща Свети Сава - Велико Търново"
+              title="Легендарната къща Свети Сава – Велико Търново"
             />
           </div>
         </AnimatedSection>
