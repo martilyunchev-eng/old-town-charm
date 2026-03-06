@@ -8,7 +8,7 @@ import SharedAmenitiesSection from "@/components/SharedAmenitiesSection";
 import AmenitiesSection from "@/components/AmenitiesSection";
 import SpaSection from "@/components/SpaSection";
 import ParkingSection from "@/components/ParkingSection";
-
+import AccommodationSection from "@/components/AccommodationSection";
 import GallerySection from "@/components/GallerySection";
 import ViewsSection from "@/components/ViewsSection";
 import LocationSection from "@/components/LocationSection";
@@ -27,7 +27,7 @@ const Index = () => (
       <AmenitiesSection />
       <SpaSection />
       <ParkingSection />
-      
+      <AccommodationSection />
       <GallerySection />
       <ViewsSection />
       <LocationSection />
