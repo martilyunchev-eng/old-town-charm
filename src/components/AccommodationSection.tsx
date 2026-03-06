@@ -6,9 +6,9 @@ const AccommodationSection = () => {
   const { t } = useLanguage();
 
   const files = [
-    { label: t.accommodation.bg, href: "/docs/checkin-bg-ro.docx" },
+    { label: t.accommodation.bg, href: "/docs/checkin-bg.docx" },
     { label: t.accommodation.en, href: "/docs/checkin-en.docx" },
-    { label: t.accommodation.ro, href: "/docs/checkin-bg-ro.docx" },
+    { label: t.accommodation.ro, href: "/docs/checkin-ro.docx" },
   ];
 
   return (
