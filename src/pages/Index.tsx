@@ -14,10 +14,12 @@ import ViewsSection from "@/components/ViewsSection";
 import LocationSection from "@/components/LocationSection";
 import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
+import FloatingContact from "@/components/FloatingContact";
 
 const Index = () => (
   <LanguageProvider>
     <Header />
+    <FloatingContact />
     <main>
       <HeroSection />
       <AboutSection />
