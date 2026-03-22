@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://stsavahouse.com/sitemap.xml
+Host: stsavahouse.com

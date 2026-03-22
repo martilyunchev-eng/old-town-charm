@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
 export type Language = "bg" | "en" | "ro";
 
@@ -8,6 +8,11 @@ const QC = "\u201C";
 const translations = {
   bg: {
     logo: `Легендарната къща ${Q}Свети Сава${QC}`,
+    seo: {
+      title: "Легендарната къща „Свети Сава“ | Велико Търново",
+      description:
+        "Бутикова къща за гости в Стария град на Велико Търново с панорамни гледки, спа наблизо и уютни стаи. Резервирайте директно.",
+    },
     nav: { about: "За къщата", rooms: "Стаи", amenities: "Удобства", gallery: "Галерия", location: "Локация", contact: "Контакти" },
     hero: {
       title: `Легендарната къща ${Q}Свети Сава${QC}`,
@@ -153,6 +158,11 @@ const translations = {
   },
   en: {
     logo: `${Q}St. Sava${QC} Legendary House`,
+    seo: {
+      title: "St. Sava Legendary House | Veliko Tarnovo",
+      description:
+        "Boutique guest house in the Old Town of Veliko Tarnovo with panoramic views, spa nearby, and cozy rooms. Book direct.",
+    },
     nav: { about: "About", rooms: "Rooms", amenities: "Amenities", gallery: "Gallery", location: "Location", contact: "Contact" },
     hero: {
       title: `${Q}St. Sava${QC} Legendary House`,
@@ -298,6 +308,11 @@ const translations = {
   },
   ro: {
     logo: `Casa Legendară ${Q}Sf. Sava${QC}`,
+    seo: {
+      title: "Casa Legendară „Sf. Sava” | Veliko Târnovo",
+      description:
+        "Casă de oaspeți boutique în orașul vechi Veliko Târnovo, cu priveliști panoramice, spa în apropiere și camere confortabile. Rezervă direct.",
+    },
     nav: { about: "Despre", rooms: "Camere", amenities: "Facilități", gallery: "Galerie", location: "Locație", contact: "Contact" },
     hero: {
       title: `Casa Legendară ${Q}Sf. Sava${QC}`,
@@ -458,6 +473,31 @@ const LanguageContext = createContext<{
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLang] = useState<Language>("bg");
   const t = translations[lang];
+  useEffect(() => {
+    const setMeta = (selector: string, content: string) => {
+      const el = document.querySelector<HTMLMetaElement>(selector);
+      if (el && content) {
+        el.setAttribute("content", content);
+      }
+    };
+
+    document.documentElement.lang = lang;
+    if (t.seo) {
+      document.title = t.seo.title;
+      setMeta('meta[name="description"]', t.seo.description);
+      setMeta('meta[property="og:title"]', t.seo.title);
+      setMeta('meta[property="og:description"]', t.seo.description);
+      setMeta('meta[name="twitter:title"]', t.seo.title);
+      setMeta('meta[name="twitter:description"]', t.seo.description);
+    }
+
+    const localeMap: Record<Language, string> = {
+      bg: "bg_BG",
+      en: "en_US",
+      ro: "ro_RO",
+    };
+    setMeta('meta[property="og:locale"]', localeMap[lang]);
+  }, [lang, t.seo]);
   return (
     <LanguageContext.Provider value={{ lang, setLang, t }}>
       {children}
