@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
+import { WHATSAPP_URL } from "@/lib/contact";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
@@ -32,7 +33,7 @@ const ContactSection = () => {
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-gold shrink-0" />
                 <a
-                  href="https://api.whatsapp.com/send/?phone=359878400681&type=phone_number&app_absent=0"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground hover:text-primary transition-colors"

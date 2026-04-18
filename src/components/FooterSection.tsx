@@ -1,4 +1,5 @@
 import { useLanguage } from "@/lib/i18n";
+import { WHATSAPP_URL } from "@/lib/contact";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 const FooterSection = () => {
@@ -15,7 +16,7 @@ const FooterSection = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-wood-foreground/70 mb-8">
           <a
-            href="https://api.whatsapp.com/send/?phone=359878400681&type=phone_number&app_absent=0"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-gold transition-colors"
