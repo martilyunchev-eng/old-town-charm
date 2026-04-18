@@ -4,7 +4,7 @@ const FloatingContact = () => {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       <a
-        href="https://wa.me/35987840681"
+        href="https://wa.me/359878400681"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
@@ -15,7 +15,7 @@ const FloatingContact = () => {
         </svg>
       </a>
       <a
-        href="viber://chat?number=+35987840681"
+        href="viber://chat?number=+359878400681"
         aria-label="Viber"
         className="w-14 h-14 rounded-full bg-[#7360F2] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200"
       >
