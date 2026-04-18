@@ -14,7 +14,12 @@ const FooterSection = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-wood-foreground/70 mb-8">
-          <a href="tel:+359878400681" className="flex items-center gap-2 hover:text-gold transition-colors">
+          <a
+            href="https://api.whatsapp.com/send/?phone=359878400681&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gold transition-colors"
+          >
             <Phone size={14} /> +359 878 400681
           </a>
           <a href="mailto:stsavahouse@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors">

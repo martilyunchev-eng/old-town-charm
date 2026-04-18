@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import AnimatedSection from "./AnimatedSection";
 import { useLanguage } from "@/lib/i18n";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   const { t } = useLanguage();
@@ -31,13 +31,14 @@ const ContactSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-gold shrink-0" />
-                <a href="tel:+359878400681" className="text-foreground hover:text-primary transition-colors">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=359878400681&type=phone_number&app_absent=0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground hover:text-primary transition-colors"
+                >
                   +359 878 400681
                 </a>
-              </div>
-              <div className="flex items-center gap-3 text-muted-foreground text-sm">
-                <MessageCircle size={18} className="text-gold shrink-0" />
-                <span>Viber / WhatsApp</span>
               </div>
               <a
                 href="mailto:stsavahouse@gmail.com"
