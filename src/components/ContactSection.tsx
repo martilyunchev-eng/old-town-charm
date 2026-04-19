@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import AnimatedSection from "./AnimatedSection";
+import { CONTACT_PHONE_DISPLAY } from "@/lib/contact";
 import { useLanguage } from "@/lib/i18n";
-import { WHATSAPP_URL } from "@/lib/contact";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
@@ -30,16 +30,9 @@ const ContactSection = () => {
                 <MapPin size={20} className="text-gold shrink-0" />
                 <span>{t.contact.address}</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 text-foreground">
                 <Phone size={20} className="text-gold shrink-0" />
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground hover:text-primary transition-colors"
-                >
-                  +359 878 400681
-                </a>
+                <span>{CONTACT_PHONE_DISPLAY}</span>
               </div>
               <a
                 href="mailto:stsavahouse@gmail.com"

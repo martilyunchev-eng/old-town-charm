@@ -1,5 +1,5 @@
+import { CONTACT_PHONE_DISPLAY } from "@/lib/contact";
 import { useLanguage } from "@/lib/i18n";
-import { WHATSAPP_URL } from "@/lib/contact";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 const FooterSection = () => {
@@ -15,14 +15,9 @@ const FooterSection = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-sm text-wood-foreground/70 mb-8">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gold transition-colors"
-          >
-            <Phone size={14} /> +359 878 400681
-          </a>
+          <div className="flex items-center gap-2">
+            <Phone size={14} /> {CONTACT_PHONE_DISPLAY}
+          </div>
           <a href="mailto:stsavahouse@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors">
             <Mail size={14} /> stsavahouse@gmail.com
           </a>
